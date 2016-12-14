@@ -1,0 +1,14 @@
+
+class Kunai{
+    private int sharpness;
+    public Kunai(int sharpress){
+	this.sharpness=sharpness;
+    }
+    public int getSharpress(){
+	return this.sharpness;
+    }
+    public void used(){
+	sharpness--;
+	return;
+    }
+}

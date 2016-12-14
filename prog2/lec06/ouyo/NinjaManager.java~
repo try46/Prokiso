@@ -1,0 +1,11 @@
+class NinjaManager{
+    public static void mian(Strig[] args){
+	Ninja[] ninjas=new ninjas;
+	ninjas[0]=new Naruto;
+	ninjas[1]=new Sasuke;
+	sasuke.setHitPoint(500);
+	System.out.println(Ninja[]);
+	System.out.println(Naruto.getHitPoint());
+	System.out.println(Sasuke.getHitPoint());
+    }
+}

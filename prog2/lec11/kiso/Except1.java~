@@ -1,0 +1,16 @@
+class Exvept1{
+    int []test =new int[5];
+    public void func1(){
+	try{
+	    for(int i=0;i<10;i++){
+		test[i]=i;
+	    }
+	    catch(Exceprion e){
+		System.out.println("N");	
+	    }
+	    finally{
+		Ssytem.out.println("A");
+	    }
+	}
+    }
+}

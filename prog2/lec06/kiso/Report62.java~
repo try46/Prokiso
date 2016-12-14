@@ -1,0 +1,10 @@
+import java.util.Random;
+class Report62{
+    public static void main(String[] args){
+	int[] nums=new int[3];
+	Random r=new Ramdom();
+	int nums=r.nextInt(12);
+	System.out.println(r);
+	System.out.println(nums.length);
+    }
+}

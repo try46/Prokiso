@@ -1,0 +1,6 @@
+class GreatNinja extends Ninja{
+    public int hitPoint;
+    public setHitPoint(int hitPoint){
+	this.hitPoint=40;
+    }
+}

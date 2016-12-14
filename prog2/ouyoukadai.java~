@@ -1,0 +1,14 @@
+class ouyoukadai{
+    publc static void main(String[] args){
+	int[]score={11,25,98,62,53};
+	int sum=0;
+	for(int i=0;i<score.length;i++){
+	    sum+=score[i]
+	}
+	double ave=score[i]/score.length;
+	System.out.println(ave);
+    }
+}
+
+
+       

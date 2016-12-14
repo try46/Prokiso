@@ -1,0 +1,12 @@
+class Ninja{
+    private int hitPoint;
+    public Ninja(){
+	this.hitPoint=400;
+    }
+    public void setHitPoint(int hitPoint){
+	this.hitPoint=hitPoint;
+    }
+    public int getHitPoint(){
+	return this.hitPoint;
+    }
+}

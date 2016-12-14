@@ -1,0 +1,12 @@
+class GreatNinja extends Ninja{
+    private Kunia kunai;
+    public GreatNinja(int hitPoint,double loyalty,Kunai kunai){
+	super.Ninja(int hitPoint,double loyalty);
+	this.kunai=kunai;
+    }
+    protected work(){
+	super.work();
+	kunai.used();
+	return;
+    }
+}

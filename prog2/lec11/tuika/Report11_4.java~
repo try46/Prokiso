@@ -1,0 +1,27 @@
+class Report11_4{
+    public static void main(String[] args){
+	Circles [] circles=new Circle[7];
+	circles[]=new Circle();
+	try{
+	    circles[0].setR(-3.0);
+	    circles[1].setR(-2.0);
+	    circles[2].setR(-1.0);
+	    circles[3].setR(0.0);
+	    circles[4].setR(1.0);
+	    circles[5].setR(2.0);
+	    circles[6].setR(3.0);
+	}
+	catch(CircleException e){
+	    for(int i=0;i=circles[3].length;i++){
+		System.out.println("設定値が"+circles[i].getR+"なので半径は変更>    しない");
+		System.out.println("半径2.0の円の面積は"+circles.getArea());
+	    }
+	}
+	finally{
+	    for(int y=4;y=circle[6].length;y++){
+		System.out.println("半径"+circles[y].getR+"の面積は"+circles[y].getArea());
+	    }
+	}
+    }
+}
+

@@ -1,0 +1,39 @@
+class Ninja{
+    private int hitPoint;
+    private double loyalty;
+    private int numOfNinjas;
+    public static int numOfNinjas;
+
+    private  Ninja(){
+	hitPoint=999;
+	loyalty=100.0;	
+    }
+    public Ninja(int hitPoint){
+	this();
+	this.hitPoint=hitPoint;	
+    } 
+    public Ninja(double loyalty){
+	this();
+	this.loyalty=loyalty;
+    }
+  
+public static getNumOfNinjas(){
+	return NumOfNinjas++;
+}
+    public void setHitPoint(int hitPoint){
+	this.hitPoint=hitPoint;
+	return;
+    }
+    public void setLoyalty(double loyalty){
+	this.loyalty=loyalty;
+	return;
+    }
+    public int getHitPoint(){
+	return hitPoint;
+    }
+    public double getLoyalty(){
+	return loyalty;
+    }
+   
+
+}

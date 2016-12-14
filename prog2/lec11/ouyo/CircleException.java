@@ -1,0 +1,2 @@
+class CircleException extends Exception{
+}

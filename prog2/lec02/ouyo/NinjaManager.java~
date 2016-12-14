@@ -1,0 +1,12 @@
+class NinjaManager{
+    public static void main(String[] args){
+	Ninja hanzo=new Ninja();
+	hanzo.hitPoint=700;
+
+	Ninja jouun=new Ninja();
+	jouun.hitPoint=400;
+
+	System.out.println(hanzo.hitPoint);
+	System.out.println(jouun.hitPoint);
+    }
+}

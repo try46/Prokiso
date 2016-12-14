@@ -1,0 +1,12 @@
+class NinjaManager{
+    public static void main(String[] args){
+	Ninja[] ninjas=new Ninja[3];
+	ninjas[0]=new GreatNinja();
+	ninjas[1]=new GreatNinja(500);
+	ninjas[2]=new Ninja();
+	for(int i=0;i<ninjas.length;i++){
+	    System.out.println(ninjas[i].getHitPoint());
+	}
+    }
+}
+

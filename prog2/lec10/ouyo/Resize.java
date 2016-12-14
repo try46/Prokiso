@@ -1,0 +1,4 @@
+interface Resize{
+	void makeHalf();
+}
+

@@ -1,0 +1,10 @@
+class Report43{
+    public static void main(String[] args){
+	for(int i=0;i<25;i++){
+	    FishPancake cake=new FishPancake(100,50);
+	    cake.sell();
+	}
+	int total=profit();
+	System.out.println("トータルの利益"+total+"円でした。");
+    }
+}
