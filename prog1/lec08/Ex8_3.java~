@@ -1,0 +1,28 @@
+class Ex8_3{
+    public static void main(String[] args)
+	char alphabet = 'A';
+    do {
+	System.out.println(alphabet);
+	alphabet++;//a
+    }while(alphabet<26);
+}
+
+	//System.out.println(alphabet);
+	//alphabet++;//b
+	//System.out.println(alphabet);
+	//alphabet++;//c
+	//System.out.println(alphabet);
+	//alphabet++;//d
+	//System.out.println(alphabet);
+	//alphabet++;//e
+	//System.out.println(alphabet);
+	//alphabet++;//f
+	//Syatem.out.println(alphabet);
+	//alphabet++;
+	//System.out.println(alphabet);
+	//alphabet++;
+	//System.out.println(alphabet);
+	//alphabet++;
+	//System.out.println(alphabet);
+	//alphabet++;
+

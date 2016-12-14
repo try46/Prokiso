@@ -1,0 +1,12 @@
+class Ex15_7{
+    public static void main(String[] args){
+	int n=3;
+	double b =1.5;
+	System.out.println(method(n));  //method(n)が呼び出されている
+	System.out.println(method(b)); //method(b)が呼び出されている
+	System.out.println(method(n,b));
+    }
+    double(method(n/2));
+    double(method(b/3));
+    int(method(n-(int)b));
+}

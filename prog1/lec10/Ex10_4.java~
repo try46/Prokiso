@@ -1,0 +1,19 @@
+class Ex10_4{
+    public static void main(String[] args){
+	int [] score={23,51,89,73,98,63,100,18,65,82};
+	int [] count= new int[5];
+	for(int i =0;i<score.length;i++){
+	    if(score[i]==100){
+		count[4]++;
+	    }else{
+		count[score[i]/20]++;
+	    }
+	}
+	for(int i=0;i<count.length;i++){
+	    for(int j=0;j==count[i];j++){
+		System.out.println("*");
+	    }
+	    System.out.println("\n");
+	}
+    }
+}

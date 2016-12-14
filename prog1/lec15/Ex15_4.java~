@@ -1,0 +1,9 @@
+class Ex15_4{
+    public static void main(String[] args){
+	int [][]a= new int [][][];
+	for(int x =0;x<a.length;x+=3){
+	    a=a[i];
+	    System.out.println(a[i]);
+	}
+    }
+}

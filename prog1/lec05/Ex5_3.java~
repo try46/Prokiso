@@ -1,0 +1,8 @@
+class Ex5_3{
+    public static void main(String[] args){
+	int cost1=835;
+	double taxRate=1.08;
+	int cost2;
+        System.out.println(cost1+("円の商品は税込みで")+(cost1*(int)taxRate))+("円です");
+    }
+}

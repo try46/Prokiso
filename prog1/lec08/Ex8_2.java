@@ -1,0 +1,13 @@
+class Ex8_2{
+    public static void main(String[] args){
+	int sum;
+	int n;
+	sum = 0;
+	n = 1;
+	while(sum<1000){
+	     n++;
+	     sum+=n;
+	}
+	System.out.println(n);
+    }
+}

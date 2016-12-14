@@ -1,0 +1,19 @@
+class Ex15_3{
+    public static void main(String[] args){
+	char grade = 'B';
+	switch(grade){
+	case 'D':
+	    System.out.println("60点未満");
+	    break;
+	case 'C':
+	    System.out.println("70点未満");
+	    break;
+	case 'B':
+	    System.out.println("80点未満");
+	    break;
+	default:
+	    System.out.println("80点以上");
+	    break;	
+	}
+    }
+}

@@ -1,0 +1,11 @@
+class Ex12_2{
+    public static void main(String[] args){
+    int num1=3;
+    int num2=4;
+    addNums(num);
+}
+    public static void addNums(int n){
+	System.out.println(n+n);
+    }
+}
+

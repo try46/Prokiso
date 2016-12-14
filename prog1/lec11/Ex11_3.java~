@@ -1,0 +1,17 @@
+class Ex11_3{
+    public static void main(String[] args){
+	int[][]score={{74,92,65},{83,55,78},{81,75,88}};
+	int min[i] =score;
+	for(int i = 0;i<score.length;i++){
+	    min[i]=score.length;
+	    for(int j = 0;j<score[i].length;j++){
+		if(min[i]<score.length){
+		    min[i]=score[i].length;
+		}
+	    }
+	}
+	for(int i =0;score.length;i++){
+	    System.out.println((i+1)+"人目の学生の最低点:"+min[i]+"点");
+	}
+    }
+}

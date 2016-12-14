@@ -1,0 +1,21 @@
+class Ex14_1{
+    public static void main(String[] args){
+	int a[]={1,2,3};
+	double b[]= {1.0,2.0};
+	for(int j=0;j<b.length;j++){
+	    b[j]=toDouble(b[j]);
+	}
+	//  System.out.println(a[2]);
+    System.out.println(b[0]);
+    System.out.println(b[1]);
+}
+    public static int toDouble(int n){
+	return n;
+    }
+    public static double toDouble(double j){
+	return j*2;
+    }
+}
+
+
+

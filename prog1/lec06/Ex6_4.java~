@@ -1,0 +1,15 @@
+class Ex6_4{
+    public static void main(String[] args){
+	int a = 3;
+	int b = 8;
+	int c = 10;
+	if(a<8){
+	    System.out.println("a");
+	}else if(a < 8){
+	    System.out.println("b++");
+	}else{
+	    System.out.println("c");
+	}
+    }
+}
+

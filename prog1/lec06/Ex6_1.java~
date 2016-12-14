@@ -1,0 +1,25 @@
+class Ex6_1{
+    public static void main(String[] args){
+	int a ;
+	int b ;
+	int c ;
+	char x;
+	a=3;
+	b=8;
+	c=10;
+	x=a;
+	x=b;
+	x=c;
+
+	if(a < 8){
+	    x=a;
+	    System.out.println(char("x lt"));
+	}else if (b <= 8){
+	    x=b;
+	    System.out.println(char("x lt"));
+	}else if (c >= 8){
+	    x=c;
+	    System.out.println(char("x lt"));
+	}
+    }
+}

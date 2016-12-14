@@ -1,0 +1,11 @@
+class Ex13_1{
+    public staticvoid main(String[] args){
+	int num=toQuadruple();
+	System.out.plintln(num);
+    }
+
+    public static int toQuadruple(){
+	int n=5*4;
+	return n;
+    }
+}
