@@ -6,7 +6,7 @@ class Report13_2{
 		for(int i=0;i<nums.length;i++){
 		
 				if(nums[i]%2==0){
-									 arePrimeNums[0]=false;
+				arePrimeNums[0]=false;
 }
 arePrimeNums[i]=true;
 
@@ -17,7 +17,7 @@ arePrimeNums[i]=true;
 				System.out.println(nums[j]);
 				System.out.println(arePrimeNums[j]);
 		}
-}
+	}
 }
 
 
