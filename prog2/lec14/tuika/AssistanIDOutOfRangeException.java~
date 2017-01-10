@@ -1,0 +1,7 @@
+class AssistantIDOutOfRangeException extends Exception{
+	int assitantID;
+	public AssistantIDOutOfRangeException(int assitantID){
+		this.AssistantIDOutOfRangeException=assitantID;
+		}
+}
+
